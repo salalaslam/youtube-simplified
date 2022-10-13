@@ -1,5 +1,15 @@
-mutation AddVideo($title: String!) {
-  addVideo(title: $title) {
+mutation AddVideo(
+  $title: String!
+  $description: String!
+  $file: String!
+  $thumbnail: String!
+) {
+  addVideo(
+    title: $title
+    description: $description
+    file: $file
+    thumbnail: $thumbnail
+  ) {
     id
     title
     description
