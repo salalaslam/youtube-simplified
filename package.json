@@ -25,6 +25,7 @@
     "@graphql-codegen/typescript": "^2.4.8",
     "@graphql-codegen/typescript-operations": "^2.3.5",
     "@graphql-codegen/typescript-resolvers": "^2.6.1",
+    "@testing-library/jest-dom": "^5.16.5",
     "@types/jest": "^27.0.2",
     "@types/mocha": "^9.0.0",
     "@types/react": "^16.9.46",
