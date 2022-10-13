@@ -1,0 +1,13 @@
+query Videos {
+  videos {
+    ...Partial1
+  }
+}
+
+fragment Partial1 on Video {
+  id
+  title
+  description
+  thumbnail
+  file
+}

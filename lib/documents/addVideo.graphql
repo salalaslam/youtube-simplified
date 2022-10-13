@@ -1,0 +1,9 @@
+mutation AddVideo($title: String!) {
+  addVideo(title: $title) {
+    id
+    title
+    description
+    thumbnail
+    file
+  }
+}
