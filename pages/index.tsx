@@ -1,5 +1,5 @@
 import { useMutation, useQuery } from '@apollo/client'
-import { UpdateNameDocument, ViewerDocument } from 'lib/graphql-operations'
+import { UpdateNameDocument, ViewerDocument } from '../lib/graphql-operations'
 import Link from 'next/link'
 import { useState } from 'react'
 import { initializeApollo } from '../lib/apollo'
