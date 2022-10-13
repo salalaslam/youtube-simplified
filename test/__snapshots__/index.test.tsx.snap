@@ -12,6 +12,7 @@ exports[`Index renders the html we want 1`] = `
     href="/about"
     onClick={[Function]}
     onMouseEnter={[Function]}
+    onTouchStart={[Function]}
   >
     about
   </a>
