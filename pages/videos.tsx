@@ -40,7 +40,7 @@ const Index = () => {
             {viewer.map((video, i) => (
               <ListItemButton key={i}>
                 <ListItemAvatar>
-                  <Avatar />
+                  <Avatar src={video.thumbnail} />
                 </ListItemAvatar>
                 <ListItemText
                   primary={video.title}
