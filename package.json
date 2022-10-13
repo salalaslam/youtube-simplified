@@ -19,6 +19,8 @@
     "@graphql-yoga/node": "^2.2.1",
     "@mui/icons-material": "^5.10.9",
     "@mui/material": "^5.10.9",
+    "axios": "^1.1.2",
+    "formidable": "^2.0.1",
     "graphql": "15.6.0",
     "graphql-tag": "^2.12.6",
     "next": "^12.1.5",
