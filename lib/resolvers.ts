@@ -9,8 +9,8 @@ const userProfile = {
 const video = {
   id: 1,
   title: 'John Smith',
-  description: '',
-  thumbnail: '',
+  description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.',
+  thumbnail: 'https://placehold.jp/3d4070/ffffff/150x150.png',
   file: '',
 };
 
@@ -34,6 +34,9 @@ const resolvers: Resolvers = {
       let newVideo = Object.assign({}, video);
       newVideo.id = videosData.length + 1;
       newVideo.title = _args.title;
+      newVideo.description = _args.description;
+      newVideo.thumbnail = _args.thumbnail;
+      newVideo.file = _args.thumbnail;
       videosData.push(newVideo);
       return newVideo;
     },
